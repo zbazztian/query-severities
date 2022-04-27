@@ -43,7 +43,7 @@ jobs:
       uses: zbazztian/adjust-cvss@master
       with:
         patterns: |
-          java/local-temp-file-or-directory-information-disclosure:9.9
+          java/comparison-with-wider-type:5.0
         input: sarif-results/${{ matrix.language }}.sarif
         output: sarif-results/${{ matrix.language }}.sarif
 
